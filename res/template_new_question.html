@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Template add new question</title>
+</head>
+<body>
+
+<h2>Template</h2>
+<!--
+Markers you can use:
+
+-->
+
+<!-- ###TEMPLATE_PAGE### begin -->
+<div class="formAdd">
+	<p>###MESSAGE###</p>
+	<p class="error">###ERROR###</p>
+	<form action="###FORM_URL###" name="###FORM_NAME###" method="post" />
+		<fieldset>
+			<label for="###PREFIX###_question">###QUESTION_LABEL###<span class="required">###REQUIRED_FIELD_QUESTION###</span> :</label>
+			<input type="text" name="###QUESTION_NAME###" value="###QUESTION_VALUE###" id="###PREFIX###_question" /> 
+		</fieldset>
+		<fieldset>
+			<label for="###PREFIX###_description">###DESCRIPTION_LABEL###<span class="required">###REQUIRED_FIELD_DESCRIPTION###</span> :</label>
+			<textarea name="###DESCRIPTION_NAME###" id="###PREFIX###_description">###DESCRIPTION_VALUE###</textarea> 
+		</fieldset>
+		<p>###EXPLAIN_REQUIRED_FIELD###</p>
+		<fieldset>
+			<input class="submit" type="submit" name="###SUBMIT_NAME###" value="###SUBMIT_VALUE###" />
+		</fieldset>
+	</form>
+</div>
+<!-- ###TEMPLATE_PAGE### end -->
+
+<!-- ###TEMPLATE_CONFIRM_ADD### begin -->
+<div class="add_ok">
+	<p>###CONFIRM_ADD_OK###</p>
+</div>
+<!-- ###TEMPLATE_CONFIRM_ADD### end -->
+</body>
+</html>

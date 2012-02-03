@@ -1,0 +1,6 @@
+plugin.tx_icsfaq_pi2{
+	templatePath = {$config.tx_icsfaq_pi2.templatePath}
+	defaultTemplate = {$config.tx_icsfaq_pi2.defaultTemplate}
+	template = {$config.tx_icsfaq_pi2.template}
+	storage = {$config.tx_icsfaq_pi2.storage}
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_icsfaq_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="question_date_label">Postée il y a</label>
+			<label index="createBy_label">par</label>
+			<label index="answers_label">réponses</label>
+			<label index="answer_label">réponse</label>
+			<label index="lastAnswer_date_label">Dernière réponse il y a</label>
+			<label index="link_back">Retour</label>
+			<label index="label_year">an</label>
+			<label index="label_years">ans</label>
+			<label index="label_month">mois</label>
+			<label index="label_days">jours</label>
+			<label index="label_day">jour</label>
+			<label index="label_hour">heure</label>
+			<label index="label_hours">heures</label>
+			<label index="label_minutes">minutes</label>
+			<label index="label_minute">minute</label>
+			<label index="label_seconds">secondes</label>
+			<label index="label_second">seconde</label>
+			<label index="title_plugin">FAQ Collaborative</label>
+			<label index="text_add_question">Posez votre question, répondez à celles de votre communauté et votez pour les meilleurs réponses !</label>
+			<label index="btn_add_question">Poser une question</label>
+			<label index="label_word">Rechercher :</label>
+			<label index="btn_search_value">Lancer la recherche</label>
+			<label index="label_sort">Trier par :</label>
+			<label index="btn_sort_value">Trier</label>
+			<label index="date_desc">Ordre chronologique</label>
+			<label index="date_asc">Ordre chronologique inversé</label>
+			<label index="anwser_desc">Nombre de réponses décroissant</label>
+			<label index="anwser_asc">Nombre de réponses croissant</label>
+			<label index="approval_desc">Nombre d'approbations décroissant</label>
+			<label index="approval_asc">Nombre d'approbations croissant</label>
+			<label index="no_question">Il n'y a pas de questions.</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,2 @@
+ # cat=basic; type=string; label=Storage folder: id folder that store questions/answers.
+storage =

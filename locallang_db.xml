@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ics_faq'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_icsfaq_question">Question</label>
+			<label index="tx_icsfaq_question.question">Title of the question</label>
+			<label index="tx_icsfaq_question.description">Description</label>
+			<label index="tx_icsfaq_question.fe_cruser_id">Fe_users</label>
+			<label index="tx_icsfaq_answer">Answer</label>
+			<label index="tx_icsfaq_answer.answer">Answer</label>
+			<label index="tx_icsfaq_answer.question_id">Id of the question</label>
+			<label index="tx_icsfaq_answer.fe_cruser_id">Fe_users</label>
+			<label index="tx_icsfaq_approval">Approval</label>
+			<label index="tx_icsfaq_approval.fe_cruser_id">Fe_users</label>
+			<label index="tx_icsfaq_approval.response_id">Id of the response</label>
+			<label index="tt_content.list_type_pi1">List of questions</label>
+			<label index="tt_content.list_type_pi2">Detail of a question</label>
+			<label index="tt_content.list_type_pi3">Ask a question</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tx_icsfaq_question">Question</label>
+			<label index="tx_icsfaq_question.question">Intitulé de la question</label>
+			<label index="tx_icsfaq_question.description">Description</label>
+			<label index="tx_icsfaq_question.fe_cruser_id">Fe_users</label>
+			<label index="tx_icsfaq_answer">Réponse</label>
+			<label index="tx_icsfaq_answer.answer">Réponse</label>
+			<label index="tx_icsfaq_answer.question_id">Id de la question</label>
+			<label index="tx_icsfaq_answer.fe_cruser_id">Fe_users</label>
+			<label index="tx_icsfaq_approval">Approbation</label>
+			<label index="tx_icsfaq_approval.fe_cruser_id">Fe_users</label>
+			<label index="tx_icsfaq_approval.response_id">Id de la réponse</label>
+			<label index="tt_content.list_type_pi1">Liste des questions</label>
+			<label index="tt_content.list_type_pi2">Detail d'une question</label>
+			<label index="tt_content.list_type_pi3">Poser une question</label>
+		</languageKey>
+	</data>
+</T3locallang>

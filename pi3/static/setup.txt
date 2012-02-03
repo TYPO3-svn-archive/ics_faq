@@ -1,0 +1,7 @@
+plugin.tx_icsfaq_pi3{
+	templatePath = {$config.tx_icsfaq_pi3.templatePath}
+	defaultTemplate = {$config.tx_icsfaq_pi3.defaultTemplate}
+	template = {$config.tx_icsfaq_pi3.template}
+	storage = {$config.tx_icsfaq_pi3.storage}
+	required_field = {$config.tx_icsfaq_pi3.required_field}
+}

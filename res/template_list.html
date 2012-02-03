@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Template add new question</title>
+</head>
+<body>
+
+<h2>Template</h2>
+<!--
+Markers you can use:
+
+-->
+
+<!-- ###TEMPLATE_PAGE### begin -->
+<span><img alt="texte_haut" src="fileadmin/templates/css/img/sous_rubrique_haut.png"><div id="ss_rub_haut"></div></span>
+	<div class="chapeau">
+		<div class="fond">
+			<h3>###TITLE###</h3>
+		</div>
+		<div class="texte">
+			<div class="add_question">
+				<p>###TEXT_ADD_QUESTION###</p>
+				<p class="btn">###BTN_ADD_QUESTION###</p>
+			</div>
+			<div class="search">
+				<form name="form_search" action="###FORM_SEARCH_URL###" method="get">
+					<fieldset>
+						<input type="hidden" value="###PAGE_ID###" name="id" />
+						<label for="###PREFFIX###_word">###LABEL_WORD###</label>
+						<input type="text" name="###WORD_NAME###" value="###WORD_VALUE###" id="###PREFFIX###_word" />
+						<input type="submit" name="###SUBMIT_SEARCH_NAME###" value="###SUBMIT_SEARCH_VALUE###" class="btn" />
+					</fieldset>
+				</form>
+			</div>
+			<div class="sort">
+				<form name="form_sort" action="###FORM_SORT_URL###" method="get">
+					<fieldset>
+						<input type="hidden" value="###PAGE_ID###" name="id" />
+						<label for="###PREFFIX###_sort">###LABEL_SORT###</label>
+						<select name="###SORT_NAME###" id="###PREFIX###_sort">
+							###SORT_SELECT###
+						</select>
+						<input type="submit" name="###SUBMIT_SORT_NAME###" value="###SUBMIT_SORT_VALUE###" class="btn" />
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="clear">
+		</div>
+	</div>
+<span><img alt="texte_bas" src="fileadmin/templates/css/img/texte_bas.png"></span>
+<span class="text_haut"><img alt="texte_haut" src="fileadmin/templates/css/img/texte_haut.png"></span>
+<div id="texte">
+	<div class="list_faq">
+		<ul class="faq_list">
+			<!-- ###TEMPLATE_FAQ_LI### begin -->
+			<li class="faq_list_item">
+				<h4>###QUESTION_TITLE###</h4>
+				<p class="infos_create">###QUESTION_DATE_LABEl### ###QUESTION_DATE### ###CREATE_BY_LABEL### ###CREATE_BY###</p>
+				<p class="infos">###NB_ANSWER### ###ANSWER_LABEL### ###LAST_ANSWER_DATE_LABEL### ###LAST_ANSWER_DATE###</p>
+			</li>
+			<!-- ###TEMPLATE_FAQ_LI### end -->
+		</ul>
+	</div>
+</div>
+<span class="texte_bas"><img alt="texte_bas" src="fileadmin/templates/css/img/texte_bas.png"></span>
+<!-- ###TEMPLATE_PAGE### end -->
+</body>
+</html>

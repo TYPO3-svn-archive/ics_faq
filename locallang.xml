@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'ics_faq'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">List of questions</label>
+			<label index="pi1_plus_wiz_description">List of question + search</label>
+			<label index="pi2_title">Detail of a question</label>
+			<label index="pi2_plus_wiz_description">Detail of a question + answers</label>
+			<label index="pi3_title">Ask a question</label>
+			<label index="pi3_plus_wiz_description">Form</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="pi1_title">Liste des questions</label>
+			<label index="pi1_plus_wiz_description">Liste des questions + recherche</label>
+			<label index="pi2_title">Detail d'une question</label>
+			<label index="pi2_plus_wiz_description">Détail d'une question + réponses</label>
+			<label index="pi3_title">Poser une question</label>
+			<label index="pi3_plus_wiz_description">Formulaire</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,13 @@
+config.tx_icsfaq_pi1 {
+	templatePath = EXT:ics_faq/res/
+	# cat=plugin.tx_icsfaq_pi1/other/b; type=string; label=Default template: The default template file to use.
+	defaultTemplate = template_list.html
+	# cat=plugin.tx_icsfaq_pi1/file/c; type=file[html]; label=Template to use: The template file to use.
+	template = 
+	# cat=plugin.tx_icsfaq_pi1/file/d; type=file[html]; label=Template to use: The template file to use.
+	template = 
+	# cat=plugin.tx_icsfaq_pi1/links/e; type=int+; label=Storage folder: The folder that store questions
+	storage = 
+	# cat=plugin.tx_icsfaq_pi1/links/e; type=int+; label=Page Id: Id page for add a new question
+	add_page = 
+}

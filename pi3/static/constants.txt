@@ -1,0 +1,13 @@
+config.tx_icsfaq_pi3 {
+	templatePath = EXT:ics_faq/res/
+	# cat=plugin.tx_icsfaq_pi3/other/b; type=string; label=Default template: The default template file to use.
+	defaultTemplate = template_new_question.html
+	# cat=plugin.tx_icsfaq_pi3/file/c; type=file[html]; label=Template to use: The template file to use.
+	template = 
+	# cat=plugin.tx_icsfaq_pi3/file/d; type=file[html]; label=Template to use: The template file to use.
+	template = 
+	# cat=plugin.tx_icsfaq_pi3/links/e; type=int+; label=Storage folder: The folder that store questions
+	storage = 
+	# cat=plugin.tx_icsfaq_pi3/other/f; type=string; label=required field: list of required field (field1,field2,...)
+	required_field = question
+}
